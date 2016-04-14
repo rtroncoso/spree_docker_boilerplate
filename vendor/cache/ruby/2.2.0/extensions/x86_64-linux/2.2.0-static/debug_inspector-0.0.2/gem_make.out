@@ -1,0 +1,13 @@
+/usr/local/bin/ruby -r ./siteconf20160408-1-4gmmqj.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+make "DESTDIR=" install
+make: Warning: File 'debug_inspector.so' has modification time 0.058 s in the future
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20160408-1-1b6x20w
+make: warning:  Clock skew detected.  Your build may be incomplete.

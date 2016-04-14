@@ -1,0 +1,13 @@
+script: "bundle exec rake"
+rvm:
+  - 1.9.3
+  - 2.0.0
+gemfile:
+  - gemfiles/rails3_1.gemfile
+  - gemfiles/rails3_2.gemfile
+  - gemfiles/rails4_0.gemfile
+  - gemfiles/haml4_0.gemfile
+notifications:
+  email:
+    - brian@spreecommerce.com
+    - ryan@spreecommerce.com
