@@ -2,9 +2,18 @@
 #
 # This is not required for development environments, which could use another
 
-# TODO: Create the image that is used as a base for this!
-FROM  vovimayhem/app-container:ruby-2.2
+FROM ruby:2.2.3-slim
 MAINTAINER Rodrigo Troncoso <rod.tronco@gmail.com>
+
+# Install dependencies.
+RUN apt-get update
+RUN apt-get install -y libsqlite3-dev postgresql libpq-dev nodejs ruby-dev make
+RUN apt-get install -y build-essential bison openssl libreadline6 libreadline6-dev curl git-core \
+                       zlib1g zlib1g-dev libssl-dev libyaml-dev libxml2-dev autoconf libc6-dev  \
+                       ncurses-dev automake libtool
+RUN gem install rubygems-update --no-ri --no-rdoc
+RUN gem install bundler sinatra --no-ri --no-rdoc
+RUN update_rubygems
 
 # Configure the main working directory. This is the base
 # directory used in any further RUN, COPY, and ENTRYPOINT
@@ -13,12 +22,18 @@ ENV INSTALL_PATH /app
 RUN mkdir -p $INSTALL_PATH
 WORKDIR $INSTALL_PATH
 
-# Copy the rails application.
-COPY . ./
-COPY Gemfile ./
+# First copy Gemfiles for bundler
+ADD Gemfile Gemfile
+ADD Gemfile.lock Gemfile.lock
 
 # Run bundle install:
 RUN bundle install --jobs 20 --retry 5
+
+# Copy the rails application.
+COPY . ./
+
+# Precompile assets
+#RUN bundle exec rake assets:precompile
 
 # Expose port 3000 for development
 #EXPOSE 80
