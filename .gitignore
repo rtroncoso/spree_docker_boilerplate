@@ -58,3 +58,8 @@ bower.json
 # Ignore project's database dumps:
 /db/dumps/*
 !/db/dumps/README.md
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

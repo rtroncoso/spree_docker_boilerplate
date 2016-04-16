@@ -2,101 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6edf787a-f8e0-4cef-828e-e5fbc6db4372" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/sidekiq.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/1/large/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/1/large/ror_baseball_jersey_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/1/mini/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/1/mini/ror_baseball_jersey_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/1/product/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/1/product/ror_baseball_jersey_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/1/small/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/1/small/ror_baseball_jersey_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/10/large/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/10/large/ror_baseball_jersey_back_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/10/mini/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/10/mini/ror_baseball_jersey_back_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/10/product/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/10/product/ror_baseball_jersey_back_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/10/small/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/10/small/ror_baseball_jersey_back_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/11/large/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/11/large/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/11/mini/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/11/mini/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/11/product/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/11/product/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/11/small/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/11/small/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/12/large/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/12/large/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/12/mini/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/12/mini/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/12/product/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/12/product/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/12/small/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/12/small/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/13/large/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/13/large/ror_baseball_jersey_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/13/mini/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/13/mini/ror_baseball_jersey_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/13/product/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/13/product/ror_baseball_jersey_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/13/small/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/13/small/ror_baseball_jersey_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/14/large/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/14/large/ror_baseball_jersey_back_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/14/mini/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/14/mini/ror_baseball_jersey_back_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/14/product/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/14/product/ror_baseball_jersey_back_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/14/small/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/14/small/ror_baseball_jersey_back_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/15/large/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/15/large/ror_baseball_jersey_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/15/mini/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/15/mini/ror_baseball_jersey_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/15/product/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/15/product/ror_baseball_jersey_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/15/small/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/15/small/ror_baseball_jersey_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/16/large/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/16/large/ror_baseball_jersey_back_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/16/mini/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/16/mini/ror_baseball_jersey_back_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/16/product/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/16/product/ror_baseball_jersey_back_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/16/small/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/16/small/ror_baseball_jersey_back_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/17/large/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/17/large/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/17/mini/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/17/mini/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/17/product/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/17/product/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/17/small/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/17/small/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/18/large/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/18/large/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/18/mini/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/18/mini/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/18/product/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/18/product/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/18/small/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/18/small/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/19/large/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/19/large/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/19/mini/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/19/mini/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/19/product/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/19/product/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/19/small/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/19/small/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/2/large/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/2/large/ror_baseball_jersey_back_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/2/mini/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/2/mini/ror_baseball_jersey_back_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/2/product/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/2/product/ror_baseball_jersey_back_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/2/small/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/2/small/ror_baseball_jersey_back_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/20/large/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/20/large/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/20/mini/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/20/mini/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/20/product/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/20/product/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/20/small/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/20/small/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/3/large/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/3/large/ror_baseball_jersey_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/3/mini/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/3/mini/ror_baseball_jersey_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/3/product/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/3/product/ror_baseball_jersey_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/3/small/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/3/small/ror_baseball_jersey_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/33/large/apache_baseball.png" afterPath="$PROJECT_DIR$/public/spree/products/33/large/apache_baseball.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/33/mini/apache_baseball.png" afterPath="$PROJECT_DIR$/public/spree/products/33/mini/apache_baseball.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/33/product/apache_baseball.png" afterPath="$PROJECT_DIR$/public/spree/products/33/product/apache_baseball.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/33/small/apache_baseball.png" afterPath="$PROJECT_DIR$/public/spree/products/33/small/apache_baseball.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/34/large/ruby_baseball.png" afterPath="$PROJECT_DIR$/public/spree/products/34/large/ruby_baseball.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/34/mini/ruby_baseball.png" afterPath="$PROJECT_DIR$/public/spree/products/34/mini/ruby_baseball.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/34/product/ruby_baseball.png" afterPath="$PROJECT_DIR$/public/spree/products/34/product/ruby_baseball.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/34/small/ruby_baseball.png" afterPath="$PROJECT_DIR$/public/spree/products/34/small/ruby_baseball.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/4/large/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/4/large/ror_baseball_jersey_back_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/4/mini/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/4/mini/ror_baseball_jersey_back_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/4/product/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/4/product/ror_baseball_jersey_back_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/4/small/ror_baseball_jersey_back_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/4/small/ror_baseball_jersey_back_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/5/large/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/5/large/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/5/mini/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/5/mini/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/5/product/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/5/product/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/5/small/ror_baseball_jersey_green.png" afterPath="$PROJECT_DIR$/public/spree/products/5/small/ror_baseball_jersey_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/6/large/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/6/large/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/6/mini/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/6/mini/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/6/product/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/6/product/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/6/small/ror_baseball_jersey_back_green.png" afterPath="$PROJECT_DIR$/public/spree/products/6/small/ror_baseball_jersey_back_green.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/7/large/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/7/large/ror_baseball_jersey_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/7/mini/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/7/mini/ror_baseball_jersey_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/7/product/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/7/product/ror_baseball_jersey_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/7/small/ror_baseball_jersey_red.png" afterPath="$PROJECT_DIR$/public/spree/products/7/small/ror_baseball_jersey_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/8/large/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/8/large/ror_baseball_jersey_back_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/8/mini/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/8/mini/ror_baseball_jersey_back_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/8/product/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/8/product/ror_baseball_jersey_back_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/8/small/ror_baseball_jersey_back_red.png" afterPath="$PROJECT_DIR$/public/spree/products/8/small/ror_baseball_jersey_back_red.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/9/large/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/9/large/ror_baseball_jersey_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/9/mini/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/9/mini/ror_baseball_jersey_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/9/product/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/9/product/ror_baseball_jersey_blue.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/spree/products/9/small/ror_baseball_jersey_blue.png" afterPath="$PROJECT_DIR$/public/spree/products/9/small/ror_baseball_jersey_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dockerfile.prod" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/unicorn.rb" afterPath="$PROJECT_DIR$/config/unicorn.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
     </list>
     <ignored path="rails.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,11 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup-development-with-docker.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="setup-development-with-docker.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup-development-with-docker.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1038">
               <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile.prod" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dockerfile.prod">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -156,8 +73,8 @@
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-594">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="154">
+              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -180,6 +97,7 @@
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/config/unicorn.rb" />
+        <option value="$PROJECT_DIR$/Dockerfile.prod" />
       </list>
     </option>
   </component>
@@ -404,6 +322,11 @@
     <property name="SearchEverywhereHistoryKey" value="gemfil&#9;FILE&#9;file:///Users/rtroncoso/code/ortlieb/rails/Gemfile&#10;docker-compo&#9;FILE&#9;file:///Users/rtroncoso/code/ortlieb/rails/docker-compose.yml" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager" selected="Rails.Development: rails">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -576,12 +499,12 @@
       <workItem from="1460552219979" duration="4000" />
       <workItem from="1460590428853" duration="1618000" />
       <workItem from="1460748369362" duration="133000" />
-      <workItem from="1460751738080" duration="6819000" />
+      <workItem from="1460751738080" duration="6987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16270000" />
+    <option name="totallyTimeSpent" value="16438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="158" y="101" width="1357" height="884" extended-state="0" />
@@ -979,14 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1007,6 +922,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1038">
           <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile.prod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
