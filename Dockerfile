@@ -21,10 +21,10 @@ COPY Gemfile ./
 RUN bundle install --jobs 20 --retry 5
 
 # Expose port 3000 for development
-EXPOSE 80
+#EXPOSE 80
 
 # Run the app in production mode by default:
 #ENV RACK_ENV=production RAILS_ENV=production
 
 # Specify the default container command:
-CMD ["rails s -p 0.0.0.0"]
+#CMD ["rails s -p 0.0.0.0"]

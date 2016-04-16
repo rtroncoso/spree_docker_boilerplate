@@ -878,6 +878,20 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="kgio (vbundled(2.10.0), /Users/rtroncoso/code/ortlieb/rails/vendor/bundle/gems/kgio-2.10.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/kgio-2.10.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/kgio-2.10.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/kgio-2.10.0/archive" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/kgio-2.10.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/kgio-2.10.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/kgio-2.10.0/archive" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="listen (vbundled(3.0.6), /Users/rtroncoso/code/ortlieb/rails/vendor/bundle/gems/listen-3.0.6) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/listen-3.0.6/bin" />
@@ -1250,6 +1264,20 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/railties-4.2.2/bin" />
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/railties-4.2.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="raindrops (vbundled(0.16.0), /Users/rtroncoso/code/ortlieb/rails/vendor/bundle/gems/raindrops-0.16.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/raindrops-0.16.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/raindrops-0.16.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/raindrops-0.16.0/archive" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/raindrops-0.16.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/raindrops-0.16.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/raindrops-0.16.0/archive" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -1772,6 +1800,28 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/uglifier-3.0.0/lib" />
           <root url="file://$MODULE_DIR$/vendor/bundle/gems/uglifier-3.0.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unicorn (vbundled(5.1.0), /Users/rtroncoso/code/ortlieb/rails/vendor/bundle/gems/unicorn-5.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/unicorn-5.1.0/t" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/unicorn-5.1.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/unicorn-5.1.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/unicorn-5.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/unicorn-5.1.0/man" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/unicorn-5.1.0/archive" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/unicorn-5.1.0/Documentation" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/unicorn-5.1.0/t" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/unicorn-5.1.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/unicorn-5.1.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/unicorn-5.1.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/unicorn-5.1.0/man" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/unicorn-5.1.0/archive" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/gems/unicorn-5.1.0/Documentation" />
         </SOURCES>
       </library>
     </orderEntry>

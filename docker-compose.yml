@@ -26,9 +26,9 @@ web: &app_base
   # Start the server using bin/rails server -b 0.0.0.0 and that should sort it.
   # http://stackoverflow.com/questions/27799260/rails-4-2-server-port-forwarding-on-vagrant-does-not-work
   # It's fine for development, do not do it in production:
-  command: bundle exec rails server -p 80 -b 0.0.0.0
+  command: bundle exec unicorn -p 3000 -c config/unicorn.rb
   ports:
-    - "80:80" # Bind host port 80 to app HTTP port 80
+    - "80:3000" # Bind host port 3000 to app HTTP port 3000
   volumes:
     - .:/app
   ##############################################################################

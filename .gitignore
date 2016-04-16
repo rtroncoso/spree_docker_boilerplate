@@ -4,6 +4,7 @@ capybara-*.html
 /db/*.sqlite3
 /db/*.sqlite3-journal
 /public/system
+/public/assets
 /coverage/
 /spec/tmp
 **.orig
@@ -18,6 +19,7 @@ pickle-email-*.html
 # Ignore the vendor/bundle directory, which contains the gems installed by
 # bundler:
 /vendor/bundle
+/vendor/cache
 
 # TODO Comment out these rules if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
