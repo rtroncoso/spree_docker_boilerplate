@@ -33,13 +33,13 @@ RUN bundle install --jobs 20 --retry 5
 COPY . ./
 
 # Precompile assets
-#RUN bundle exec rake assets:precompile
+RUN bundle exec rake assets:precompile
 
-# Expose port 3000 for development
-#EXPOSE 80
+# Expose port 80 for production
+EXPOSE 80
 
 # Run the app in production mode by default:
-#ENV RACK_ENV=production RAILS_ENV=production
+ENV RACK_ENV=production RAILS_ENV=production
 
 # Specify the default container command:
-#CMD ["rails s -p 0.0.0.0"]
+CMD ["bundle exec unicorn -p 80 -c config/unicorn.rb"]

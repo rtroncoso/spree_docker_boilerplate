@@ -24,6 +24,7 @@ redis:
 web: &app_base
   #image: vovimayhem/app-dev:mri-2.2.2 # Build everything
   build: .
+  dockerfile: Dockerfile.dev
   # Rails 4.2 now binds to 127.0.0.1 by default and not 0.0.0.0.
   # Start the server using bin/rails server -b 0.0.0.0 and that should sort it.
   # http://stackoverflow.com/questions/27799260/rails-4-2-server-port-forwarding-on-vagrant-does-not-work
