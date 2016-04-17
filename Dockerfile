@@ -27,7 +27,7 @@ ADD Gemfile Gemfile
 ADD Gemfile.lock Gemfile.lock
 
 # Run bundle install:
-RUN bundle install --jobs 20 --retry 5
+#RUN bundle install --jobs 20 --retry 5
 
 # Copy the rails application.
 COPY . ./
@@ -39,4 +39,4 @@ EXPOSE 80
 ENV RACK_ENV=production RAILS_ENV=production
 
 # Specify the default container command:
-CMD ["bundle exec unicorn -p 80 -c config/unicorn.rb"]
+CMD ["/usr/local/bundle/bin/unicorn -c /app/config/unicorn.rb"]
