@@ -32,9 +32,6 @@ RUN bundle install --jobs 20 --retry 5
 # Copy the rails application.
 COPY . ./
 
-# Precompile assets
-RUN bundle exec rake assets:precompile
-
 # Expose port 80 for production
 EXPOSE 80
 
