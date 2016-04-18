@@ -22,18 +22,12 @@ redis:
 # We'll also use this configuration (&app_base) for the worker and test
 # containers:
 web: &app_base
-  #image: vovimayhem/app-dev:mri-2.2.2 # Build everything
   build: .
   dockerfile: Dockerfile.dev
-  # Rails 4.2 now binds to 127.0.0.1 by default and not 0.0.0.0.
-  # Start the server using bin/rails server -b 0.0.0.0 and that should sort it.
-  # http://stackoverflow.com/questions/27799260/rails-4-2-server-port-forwarding-on-vagrant-does-not-work
-  # It's fine for development, do not do it in production:
-  command: bundle exec unicorn -p 3000 -c config/unicorn.rb
   ports:
-    - "80:3000" # Bind host port 3000 to app HTTP port 3000
+    - "80:80" # Bind host port 80 to app HTTP port 80
   volumes:
-    - .:/app
+    - .:/home/app/myapp/
   ##############################################################################
   # With linked containers, Docker writes entries to the container's /etc/hosts.
   # We'll try here naming the entries docker will insert into the

@@ -16,3 +16,15 @@
 # Ignore the docker-compose project files:
 docker-compose.yml
 first_time_setup.sh
+
+/.bundle
+/.DS_Store
+/.ebextensions
+/.elasticbeanstalk
+/.env
+/.git
+/.yardoc
+/log/*
+/tmp
+
+!/log/.keep
