@@ -82,7 +82,6 @@ RUN bundle install
 # the app into the image.
 COPY . /home/app/myapp
 RUN chown -R app:app /home/app/myapp
-RUN chmod -R 755 /home/app/myapp
 
 # === 6 ===
 
