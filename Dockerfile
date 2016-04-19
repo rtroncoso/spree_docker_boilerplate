@@ -73,7 +73,6 @@ WORKDIR /home/app/myapp
 # http://ilikestuffblog.com/2014/01/06/how-to-skip-bundle-install-when-deploying-a-rails-app-to-docker/
 COPY Gemfile /home/app/myapp/
 COPY Gemfile.lock /home/app/myapp/
-RUN chown -R app:app /home/app/myapp
 RUN bundle install --deployment --without test development doc
 
 # === 5 ===
