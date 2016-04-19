@@ -80,9 +80,14 @@ RUN bundle install --deployment --without test development doc
 # Adding our web app to the image ... only after bundling do we copy the rest of
 # the app into the image.
 COPY . /home/app/myapp
-RUN chown -R app:app /home/app/myapp
 
 # === 6 ===
+
+# Pre-compile assets and modify ownage of this folder
+RUN bundle exec rake assets:precompile
+RUN chown -R app:app /home/app/myapp
+
+# === 7 ===
 
 # Remove the default site. Add a virtual host entry to Nginx which describes
 # where our app is, and Passenger will take care of the rest. See nginx.conf.
