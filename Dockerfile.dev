@@ -48,7 +48,7 @@ RUN usermod -G staff app
 
 # By default Nginx clears all environment variables (except TZ). Tell Nginx to
 # preserve these variables. See nginx-env.conf.
-COPY config/rails-env.conf /etc/nginx/main.d/rails-env.conf
+COPY config/deployment/rails-env.dev.conf /etc/nginx/main.d/rails-env.conf
 
 # Nginx and Passenger are disabled by default. Enable them (start Nginx/Passenger).
 RUN rm -f /etc/service/nginx/down
@@ -88,4 +88,4 @@ RUN chown -R app:app /home/app/myapp
 # Remove the default site. Add a virtual host entry to Nginx which describes
 # where our app is, and Passenger will take care of the rest. See nginx.conf.
 RUN rm /etc/nginx/sites-enabled/default
-COPY config/nginx.dev.conf /etc/nginx/sites-enabled/myapp.conf
+COPY config/deployment/nginx.dev.conf /etc/nginx/sites-enabled/myapp.conf
