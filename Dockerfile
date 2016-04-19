@@ -84,7 +84,6 @@ COPY . /home/app/myapp
 # === 6 ===
 
 # Pre-compile assets and modify ownage of this folder
-RUN bundle exec rake assets:precompile
 RUN chown -R app:app /home/app/myapp
 
 # === 7 ===
