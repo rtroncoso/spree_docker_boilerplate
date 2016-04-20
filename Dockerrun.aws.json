@@ -5,5 +5,5 @@
       "ContainerPort": "80"
     }
   ],
-  "Logging": "/home/app/myapp/log"
+  "Logging": "/home/app/log"
 }

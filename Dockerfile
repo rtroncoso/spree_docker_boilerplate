@@ -40,11 +40,10 @@ ENV HOME /root
 # Use baseimage-docker's init process.
 CMD ["/sbin/my_init"]
 
-# Correct permissions for docker-compose
-RUN usermod -u 1000 app
-RUN usermod -G staff app
-
 # === 3 ====
+
+# Expose Nginx HTTP service
+EXPOSE 80
 
 # By default Nginx clears all environment variables (except TZ). Tell Nginx to
 # preserve these variables. See nginx-env.conf.
@@ -53,8 +52,10 @@ COPY config/deployment/rails-env.conf /etc/nginx/main.d/rails-env.conf
 # Nginx and Passenger are disabled by default. Enable them (start Nginx/Passenger).
 RUN rm -f /etc/service/nginx/down
 
-# Expose Nginx HTTP service
-EXPOSE 80
+# Remove the default site. Add a virtual host entry to Nginx which describes
+# where our app is, and Passenger will take care of the rest. See nginx.conf.
+RUN rm /etc/nginx/sites-enabled/default
+COPY config/deployment/nginx.conf /etc/nginx/sites-enabled/myapp.conf
 
 # === 4 ===
 
@@ -62,8 +63,8 @@ EXPOSE 80
 # with UID 9999 and home directory /home/app. Our application is supposed to run
 # as this user. Even though Docker itself provides some isolation from the host
 # OS, running applications without root privileges is good security practice.
-RUN mkdir -p /home/app/myapp
-WORKDIR /home/app/myapp
+RUN mkdir -p /home/app
+WORKDIR /home/app
 
 # Run Bundle in a cache efficient way. Before copying the whole app, copy just
 # the Gemfile and Gemfile.lock into the tmp directory and ran bundle install
@@ -71,24 +72,16 @@ WORKDIR /home/app/myapp
 # they are cached, subsequent commands—like the bundle install one—remain
 # eligible for using the cache. Why? How? See ...
 # http://ilikestuffblog.com/2014/01/06/how-to-skip-bundle-install-when-deploying-a-rails-app-to-docker/
-COPY Gemfile /home/app/myapp/
-COPY Gemfile.lock /home/app/myapp/
-RUN bundle install --deployment --without test development doc
+COPY Gemfile /home/app/
+COPY Gemfile.lock /home/app/
+RUN sudo -u app bundle install --deployment --without test development doc
 
 # === 5 ===
 
 # Adding our web app to the image ... only after bundling do we copy the rest of
 # the app into the image.
-COPY . /home/app/myapp
+ADD . /home/app
+RUN chown -R app:app /home/app
 
-# === 6 ===
-
-# Pre-compile assets and modify ownage of this folder
-RUN chown -R app:app /home/app/myapp
-
-# === 7 ===
-
-# Remove the default site. Add a virtual host entry to Nginx which describes
-# where our app is, and Passenger will take care of the rest. See nginx.conf.
-RUN rm /etc/nginx/sites-enabled/default
-COPY config/deployment/nginx.conf /etc/nginx/sites-enabled/myapp.conf
+# Pre-compile assets as app user
+#RUN sudo -u app RAILS_ENV=production bundle exec rake assets:precompile
